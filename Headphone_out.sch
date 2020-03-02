@@ -253,9 +253,9 @@ R-
 Text Label 2700 3600 0    50   ~ 0
 R+
 Text GLabel 5200 1500 1    50   Input ~ 0
-+VA
+VA+
 Text GLabel 5200 4650 3    50   Input ~ 0
--VA
+VA-
 $Comp
 L Device:C C?
 U 1 1 5E1A11D4

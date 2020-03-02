@@ -14,7 +14,13 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text GLabel 9250 1800 2    50   Input ~ 0
-+18V
-Text GLabel 9450 5350 2    50   Input ~ 0
--18V
+VA+
+Text GLabel 9250 2000 2    50   Input ~ 0
+VA-
+Text GLabel 9250 2300 2    50   Input ~ 0
+VAL+
+Text GLabel 9250 2450 2    50   Input ~ 0
+VAL-
+Text GLabel 9250 2700 2    50   Input ~ 0
+VD+
 $EndSCHEMATC

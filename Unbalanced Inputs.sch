@@ -142,12 +142,12 @@ F 3 "" H 4050 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 5150 750  0    50   Input ~ 0
-+VA
+VA+
 Wire Wire Line
 	5150 750  5300 750 
 Connection ~ 5300 750 
 Text GLabel 5150 2100 0    50   Input ~ 0
--VA
+VA-
 Wire Wire Line
 	5150 2100 5350 2100
 Connection ~ 5350 2100
@@ -234,12 +234,12 @@ Wire Wire Line
 Wire Wire Line
 	5300 2250 5300 2300
 Text GLabel 5150 2250 0    50   Input ~ 0
-+VA
+VA+
 Wire Wire Line
 	5150 2250 5300 2250
 Connection ~ 5300 2250
 Text GLabel 5150 3600 0    50   Input ~ 0
--VA
+VA-
 Wire Wire Line
 	5150 3600 5350 3600
 Connection ~ 5350 3600
@@ -313,12 +313,12 @@ Wire Wire Line
 Wire Wire Line
 	5300 4000 5300 4050
 Text GLabel 5150 4000 0    50   Input ~ 0
-+VA
+VA+
 Wire Wire Line
 	5150 4000 5300 4000
 Connection ~ 5300 4000
 Text GLabel 5150 5350 0    50   Input ~ 0
--VA
+VA-
 Wire Wire Line
 	5150 5350 5350 5350
 Connection ~ 5350 5350
@@ -392,12 +392,12 @@ Wire Wire Line
 Wire Wire Line
 	5300 5500 5300 5550
 Text GLabel 5150 5500 0    50   Input ~ 0
-+VA
+VA+
 Wire Wire Line
 	5150 5500 5300 5500
 Connection ~ 5300 5500
 Text GLabel 5150 6850 0    50   Input ~ 0
--VA
+VA-
 Wire Wire Line
 	5150 6850 5350 6850
 Connection ~ 5350 6850
@@ -570,13 +570,13 @@ F 3 "" H 4050 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 3900 6050 3    50   Input ~ 0
--VA
+VA-
 Text GLabel 3900 2800 3    50   Input ~ 0
--VA
+VA-
 Text GLabel 3900 4600 1    50   Input ~ 0
-+VA
+VA+
 Text GLabel 3900 1350 1    50   Input ~ 0
-+VA
+VA+
 $Comp
 L power:GNDA #PWR0107
 U 1 1 5E33113D

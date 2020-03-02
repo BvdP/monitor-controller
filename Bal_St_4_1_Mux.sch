@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 13
+Sheet 8 13
 Title "Monitor Control"
 Date ""
 Rev "0.1"
@@ -92,13 +92,13 @@ F 3 "" H 6200 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 6050 4550 1    50   Input ~ 0
-+VA
+VA+
 Text GLabel 6050 2700 1    50   Input ~ 0
-+VA
+VA+
 Text GLabel 6050 4150 3    50   Input ~ 0
--VA
+VA-
 Text GLabel 6050 6000 3    50   Input ~ 0
--VA
+VA-
 Wire Wire Line
 	6800 3650 7900 3650
 Wire Wire Line
