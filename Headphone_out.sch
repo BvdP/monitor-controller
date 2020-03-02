@@ -1,0 +1,429 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 13
+Title "Monitor Control - Headphone Out"
+Date ""
+Rev "0.1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 1000 1850 0    50   Input ~ 0
+Bal_St_In
+$Comp
+L Monitor~Control:TPA6120A2 U?
+U 1 1 5E188A61
+P 5200 3200
+F 0 "U?" H 5200 3350 50  0000 C CNN
+F 1 "TPA6120A2" H 5200 3200 50  0000 C CNN
+F 2 "" H 5200 3200 50  0001 C CNN
+F 3 "" H 5200 3200 50  0001 C CNN
+	1    5200 3200
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	1700 1850 1800 1950
+Entry Wire Line
+	1900 1850 2000 1950
+Entry Wire Line
+	2100 1850 2200 1950
+Entry Wire Line
+	2300 1850 2400 1950
+$Comp
+L Device:R R?
+U 1 1 5E188F3C
+P 4800 2400
+F 0 "R?" V 4700 2400 50  0000 C CNN
+F 1 "1K" V 4800 2400 50  0000 C CNN
+F 2 "" V 4730 2400 50  0001 C CNN
+F 3 "~" H 4800 2400 50  0001 C CNN
+	1    4800 2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5900 3000 6100 3000
+Wire Wire Line
+	6100 3000 6100 2400
+Wire Wire Line
+	6100 2400 4950 2400
+$Comp
+L Device:R R?
+U 1 1 5E189356
+P 3750 2400
+F 0 "R?" V 3650 2400 50  0000 C CNN
+F 1 "1K" V 3750 2400 50  0000 C CNN
+F 2 "" V 3680 2400 50  0001 C CNN
+F 3 "~" H 3750 2400 50  0001 C CNN
+	1    3750 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E1893B0
+P 3750 2600
+F 0 "R?" V 3650 2600 50  0000 C CNN
+F 1 "1K" V 3750 2600 50  0000 C CNN
+F 2 "" V 3680 2600 50  0001 C CNN
+F 3 "~" H 3750 2600 50  0001 C CNN
+	1    3750 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E1893D4
+P 4050 2850
+F 0 "R?" H 3980 2804 50  0000 R CNN
+F 1 "1K" H 3980 2895 50  0000 R CNN
+F 2 "" V 3980 2850 50  0001 C CNN
+F 3 "~" H 4050 2850 50  0001 C CNN
+	1    4050 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3900 2600 4050 2600
+Wire Wire Line
+	4050 2700 4050 2600
+$Comp
+L power:GNDA #PWR?
+U 1 1 5E189651
+P 4050 3100
+F 0 "#PWR?" H 4050 2850 50  0001 C CNN
+F 1 "GNDA" H 4055 2927 50  0000 C CNN
+F 2 "" H 4050 3100 50  0001 C CNN
+F 3 "" H 4050 3100 50  0001 C CNN
+	1    4050 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 3100 4050 3000
+Wire Wire Line
+	3900 2400 4400 2400
+Wire Wire Line
+	4600 2900 4400 2900
+Wire Wire Line
+	4400 2900 4400 2400
+Connection ~ 4400 2400
+Wire Wire Line
+	4400 2400 4650 2400
+$Comp
+L Device:R R?
+U 1 1 5E189CF0
+P 4800 4150
+F 0 "R?" V 4700 4150 50  0000 C CNN
+F 1 "1K" V 4800 4150 50  0000 C CNN
+F 2 "" V 4730 4150 50  0001 C CNN
+F 3 "~" H 4800 4150 50  0001 C CNN
+	1    4800 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4950 4150 6100 4150
+Wire Wire Line
+	6100 4150 6100 3400
+Wire Wire Line
+	6100 3400 5900 3400
+Wire Wire Line
+	4600 3500 4400 3500
+Wire Wire Line
+	4400 3500 4400 4150
+Wire Wire Line
+	4400 4150 4650 4150
+Wire Wire Line
+	2400 1950 2400 2400
+Wire Wire Line
+	2400 2400 3600 2400
+Wire Wire Line
+	4050 2600 4250 2600
+Wire Wire Line
+	4250 2600 4250 3000
+Wire Wire Line
+	4250 3000 4600 3000
+Connection ~ 4050 2600
+Wire Wire Line
+	3600 2600 2200 2600
+Wire Wire Line
+	2200 2600 2200 1950
+$Comp
+L Device:R R?
+U 1 1 5E18B167
+P 3750 3400
+F 0 "R?" V 3650 3400 50  0000 C CNN
+F 1 "1K" V 3750 3400 50  0000 C CNN
+F 2 "" V 3680 3400 50  0001 C CNN
+F 3 "~" H 3750 3400 50  0001 C CNN
+	1    3750 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E18B1B9
+P 3750 3600
+F 0 "R?" V 3650 3600 50  0000 C CNN
+F 1 "1K" V 3750 3600 50  0000 C CNN
+F 2 "" V 3680 3600 50  0001 C CNN
+F 3 "~" H 3750 3600 50  0001 C CNN
+	1    3750 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3900 3400 4050 3400
+Wire Wire Line
+	3900 3600 3950 3600
+Wire Wire Line
+	3950 3600 3950 3500
+Wire Wire Line
+	3950 3500 4400 3500
+Connection ~ 4400 3500
+$Comp
+L Device:R R?
+U 1 1 5E18B85F
+P 4050 3800
+F 0 "R?" H 3980 3754 50  0000 R CNN
+F 1 "1K" H 3980 3845 50  0000 R CNN
+F 2 "" V 3980 3800 50  0001 C CNN
+F 3 "~" H 4050 3800 50  0001 C CNN
+	1    4050 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 5E18B8CD
+P 4050 4050
+F 0 "#PWR?" H 4050 3800 50  0001 C CNN
+F 1 "GNDA" H 4055 3877 50  0000 C CNN
+F 2 "" H 4050 4050 50  0001 C CNN
+F 3 "" H 4050 4050 50  0001 C CNN
+	1    4050 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 4050 4050 3950
+Wire Wire Line
+	4050 3650 4050 3400
+Connection ~ 4050 3400
+Wire Wire Line
+	4050 3400 4600 3400
+Wire Wire Line
+	2000 1950 2000 3400
+Wire Wire Line
+	2000 3400 3600 3400
+Wire Wire Line
+	3600 3600 1800 3600
+Wire Wire Line
+	1800 3600 1800 1950
+$Comp
+L Device:R R?
+U 1 1 5E18CDA8
+P 6850 3000
+F 0 "R?" V 6750 3000 50  0000 C CNN
+F 1 "39.2" V 6850 3000 50  0000 C CNN
+F 2 "" V 6780 3000 50  0001 C CNN
+F 3 "~" H 6850 3000 50  0001 C CNN
+	1    6850 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E18CE31
+P 6850 3400
+F 0 "R?" V 6750 3400 50  0000 C CNN
+F 1 "39.2" V 6850 3400 50  0000 C CNN
+F 2 "" V 6780 3400 50  0001 C CNN
+F 3 "~" H 6850 3400 50  0001 C CNN
+	1    6850 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6100 3400 6700 3400
+Connection ~ 6100 3400
+Wire Wire Line
+	6700 3000 6100 3000
+Connection ~ 6100 3000
+Text Label 2700 2400 0    50   ~ 0
+L-
+Text Label 2700 2600 0    50   ~ 0
+L+
+Text Label 2700 3400 0    50   ~ 0
+R-
+Text Label 2700 3600 0    50   ~ 0
+R+
+Text GLabel 5200 1500 1    50   Input ~ 0
++VA
+Text GLabel 5200 4650 3    50   Input ~ 0
+-VA
+$Comp
+L Device:C C?
+U 1 1 5E1A11D4
+P 5550 2600
+F 0 "C?" V 5298 2600 50  0000 C CNN
+F 1 "0.1 u" V 5389 2600 50  0000 C CNN
+F 2 "" H 5588 2450 50  0001 C CNN
+F 3 "~" H 5550 2600 50  0001 C CNN
+	1    5550 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E1A1302
+P 5550 3900
+F 0 "C?" V 5298 3900 50  0000 C CNN
+F 1 "0.1 u" V 5389 3900 50  0000 C CNN
+F 2 "" H 5588 3750 50  0001 C CNN
+F 3 "~" H 5550 3900 50  0001 C CNN
+	1    5550 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E1A137E
+P 4850 3900
+F 0 "C?" V 4598 3900 50  0000 C CNN
+F 1 "0.1 u" V 4689 3900 50  0000 C CNN
+F 2 "" H 4888 3750 50  0001 C CNN
+F 3 "~" H 4850 3900 50  0001 C CNN
+	1    4850 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E1A146F
+P 4850 2600
+F 0 "C?" V 4598 2600 50  0000 C CNN
+F 1 "0.1 u" V 4689 2600 50  0000 C CNN
+F 2 "" H 4888 2450 50  0001 C CNN
+F 3 "~" H 4850 2600 50  0001 C CNN
+	1    4850 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 5E1A1610
+P 4550 3900
+F 0 "#PWR?" H 4550 3650 50  0001 C CNN
+F 1 "GNDA" H 4555 3727 50  0000 C CNN
+F 2 "" H 4550 3900 50  0001 C CNN
+F 3 "" H 4550 3900 50  0001 C CNN
+	1    4550 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 5E1A1639
+P 5800 3900
+F 0 "#PWR?" H 5800 3650 50  0001 C CNN
+F 1 "GNDA" H 5805 3727 50  0000 C CNN
+F 2 "" H 5800 3900 50  0001 C CNN
+F 3 "" H 5800 3900 50  0001 C CNN
+	1    5800 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 3900 4700 3900
+Wire Wire Line
+	5000 3900 5100 3900
+Wire Wire Line
+	5100 3900 5100 3700
+Wire Wire Line
+	5400 3900 5300 3900
+Wire Wire Line
+	5300 3900 5300 3700
+Wire Wire Line
+	5800 3900 5700 3900
+Wire Wire Line
+	5100 3900 5200 3900
+Connection ~ 5100 3900
+Connection ~ 5300 3900
+Wire Wire Line
+	5200 3900 5200 4650
+Connection ~ 5200 3900
+Wire Wire Line
+	5200 3900 5300 3900
+$Comp
+L power:GNDA #PWR?
+U 1 1 5E1A44E5
+P 4600 2600
+F 0 "#PWR?" H 4600 2350 50  0001 C CNN
+F 1 "GNDA" H 4605 2427 50  0000 C CNN
+F 2 "" H 4600 2600 50  0001 C CNN
+F 3 "" H 4600 2600 50  0001 C CNN
+	1    4600 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 5E1A450E
+P 5800 2600
+F 0 "#PWR?" H 5800 2350 50  0001 C CNN
+F 1 "GNDA" H 5805 2427 50  0000 C CNN
+F 2 "" H 5800 2600 50  0001 C CNN
+F 3 "" H 5800 2600 50  0001 C CNN
+	1    5800 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2600 4700 2600
+Wire Wire Line
+	5000 2600 5100 2600
+Wire Wire Line
+	5100 2600 5100 2700
+Wire Wire Line
+	5300 2700 5300 2600
+Wire Wire Line
+	5300 2600 5400 2600
+Wire Wire Line
+	5700 2600 5800 2600
+Wire Wire Line
+	5100 2600 5200 2600
+Connection ~ 5100 2600
+Connection ~ 5300 2600
+Wire Wire Line
+	5200 2600 5200 1500
+Connection ~ 5200 2600
+Wire Wire Line
+	5200 2600 5300 2600
+$Comp
+L Connector:AudioJack3_Ground J?
+U 1 1 5E27358E
+P 7850 3200
+F 0 "J?" H 7570 3077 50  0000 R CNN
+F 1 "AudioJack3_Ground" H 7570 3168 50  0000 R CNN
+F 2 "" H 7850 3200 50  0001 C CNN
+F 3 "~" H 7850 3200 50  0001 C CNN
+	1    7850 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7000 3000 7150 3000
+Wire Wire Line
+	7150 3000 7150 3100
+Wire Wire Line
+	7150 3100 7650 3100
+Wire Wire Line
+	7650 3200 7150 3200
+Wire Wire Line
+	7150 3200 7150 3400
+Wire Wire Line
+	7150 3400 7000 3400
+$Comp
+L power:GNDA #PWR?
+U 1 1 5E2762F0
+P 7500 3450
+F 0 "#PWR?" H 7500 3200 50  0001 C CNN
+F 1 "GNDA" H 7505 3277 50  0000 C CNN
+F 2 "" H 7500 3450 50  0001 C CNN
+F 3 "" H 7500 3450 50  0001 C CNN
+	1    7500 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 3450 7500 3300
+Wire Wire Line
+	7500 3300 7650 3300
+Wire Bus Line
+	1000 1850 2300 1850
+$EndSCHEMATC

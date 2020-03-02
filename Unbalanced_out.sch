@@ -1,0 +1,195 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 13
+Title "Monitor Control"
+Date ""
+Rev "0.1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Monitor~Control:INA2137 U?
+U 1 1 5E26EB84
+P 5800 4050
+F 0 "U?" H 5750 4000 50  0000 C CNN
+F 1 "INA2137" H 5800 4100 50  0000 C CNN
+F 2 "" H 5650 4200 50  0001 C CNN
+F 3 "" H 5650 4200 50  0001 C CNN
+	1    5800 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3750 6500 3750
+Wire Wire Line
+	6500 3750 6500 3850
+Wire Wire Line
+	6500 3850 6400 3850
+Wire Wire Line
+	6400 4200 6500 4200
+Wire Wire Line
+	6500 4200 6500 4300
+Wire Wire Line
+	6500 4300 6400 4300
+$Comp
+L power:GNDA #PWR?
+U 1 1 5E26EC7F
+P 6650 3650
+F 0 "#PWR?" H 6650 3400 50  0001 C CNN
+F 1 "GNDA" H 6655 3477 50  0000 C CNN
+F 2 "" H 6650 3650 50  0001 C CNN
+F 3 "" H 6650 3650 50  0001 C CNN
+	1    6650 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 5E26EC93
+P 6550 4600
+F 0 "#PWR?" H 6550 4350 50  0001 C CNN
+F 1 "GNDA" H 6555 4427 50  0000 C CNN
+F 2 "" H 6550 4600 50  0001 C CNN
+F 3 "" H 6550 4600 50  0001 C CNN
+	1    6550 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 3650 6400 3650
+Text HLabel 3000 3950 0    50   Input ~ 0
+Bal_St_In
+Entry Wire Line
+	3950 3950 4050 4050
+Entry Wire Line
+	4150 3950 4250 3850
+Entry Wire Line
+	3950 3950 4050 3850
+Entry Wire Line
+	4150 3950 4250 4050
+Wire Wire Line
+	4050 3850 4050 3700
+Wire Wire Line
+	4050 4050 4050 4350
+Wire Wire Line
+	4050 4350 5100 4350
+Wire Wire Line
+	5100 3700 4050 3700
+$Comp
+L Device:C C?
+U 1 1 5E26F599
+P 6050 4900
+F 0 "C?" H 6165 4946 50  0000 L CNN
+F 1 "1u" H 6165 4855 50  0000 L CNN
+F 2 "" H 6088 4750 50  0001 C CNN
+F 3 "~" H 6050 4900 50  0001 C CNN
+	1    6050 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E26F683
+P 6050 3050
+F 0 "C?" H 6165 3096 50  0000 L CNN
+F 1 "1u" H 6165 3005 50  0000 L CNN
+F 2 "" H 6088 2900 50  0001 C CNN
+F 3 "~" H 6050 3050 50  0001 C CNN
+	1    6050 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 5E26F7EE
+P 6050 3200
+F 0 "#PWR?" H 6050 2950 50  0001 C CNN
+F 1 "GNDA" H 6055 3027 50  0000 C CNN
+F 2 "" H 6050 3200 50  0001 C CNN
+F 3 "" H 6050 3200 50  0001 C CNN
+	1    6050 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 5E26F7FF
+P 6050 5050
+F 0 "#PWR?" H 6050 4800 50  0001 C CNN
+F 1 "GNDA" H 6055 4877 50  0000 C CNN
+F 2 "" H 6050 5050 50  0001 C CNN
+F 3 "" H 6050 5050 50  0001 C CNN
+	1    6050 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3850 7800 3850
+Connection ~ 6500 3850
+Text Label 4300 3700 0    50   ~ 0
+L-
+Text Label 4300 3800 0    50   ~ 0
+L+
+Text Label 4300 4250 0    50   ~ 0
+R-
+Text Label 4300 4350 0    50   ~ 0
+R+
+$Comp
+L Connector:Conn_Coaxial_x2 J?
+U 1 1 5E2703C2
+P 8000 3950
+F 0 "J?" H 8099 3926 50  0000 L CNN
+F 1 "Conn_Coaxial_x2" H 8099 3835 50  0000 L CNN
+F 2 "" H 8000 3850 50  0001 C CNN
+F 3 " ~" H 8000 3850 50  0001 C CNN
+	1    8000 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 5E270502
+P 8000 4250
+F 0 "#PWR?" H 8000 4000 50  0001 C CNN
+F 1 "GNDA" H 8005 4077 50  0000 C CNN
+F 2 "" H 8000 4250 50  0001 C CNN
+F 3 "" H 8000 4250 50  0001 C CNN
+	1    8000 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 4050 4250 4250
+Wire Wire Line
+	4250 4250 5100 4250
+Wire Wire Line
+	5100 3800 4250 3800
+Wire Wire Line
+	4250 3800 4250 3850
+Wire Wire Line
+	6500 4200 6700 4200
+Wire Wire Line
+	6700 4200 6700 4050
+Wire Wire Line
+	6700 4050 7800 4050
+Connection ~ 6500 4200
+Wire Wire Line
+	6400 4400 6550 4400
+Wire Wire Line
+	6550 4400 6550 4600
+Wire Wire Line
+	6050 2900 5800 2900
+Wire Wire Line
+	5800 2900 5800 3300
+Wire Wire Line
+	5800 4750 6050 4750
+Text GLabel 5600 2900 0    50   Input ~ 0
+VA+
+Text GLabel 5600 4750 0    50   Input ~ 0
+VA-
+Wire Wire Line
+	5600 4750 5800 4750
+Connection ~ 5800 4750
+Wire Wire Line
+	5600 2900 5800 2900
+Connection ~ 5800 2900
+Wire Bus Line
+	3000 3950 4150 3950
+$EndSCHEMATC

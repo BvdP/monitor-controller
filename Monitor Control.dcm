@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DRV135
+D Audio balanced line driver
+F Datasheets/drv134.pdf
+$ENDCMP
+#
+$CMP INA2137
+D Audio dual differential line receiver
+F Datasheets/ina137.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,359 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 13
+Title "Monitor Control"
+Date "2020-01-16"
+Rev "0.1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:AudioJack3_Ground J?
+U 1 1 5E0891F4
+P 2500 1550
+F 0 "J?" H 2482 1875 50  0000 C CNN
+F 1 "AudioJack3_Ground" H 2482 1784 50  0000 C CNN
+F 2 "" H 2500 1550 50  0001 C CNN
+F 3 "~" H 2500 1550 50  0001 C CNN
+	1    2500 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack3_Ground J?
+U 1 1 5E08C83F
+P 4600 1900
+F 0 "J?" H 4582 2225 50  0000 C CNN
+F 1 "AudioJack3_Ground" H 4582 2134 50  0000 C CNN
+F 2 "" H 4600 1900 50  0001 C CNN
+F 3 "~" H 4600 1900 50  0001 C CNN
+	1    4600 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack3_Ground J?
+U 1 1 5E08D64F
+P 10050 3350
+F 0 "J?" H 9770 3318 50  0000 R CNN
+F 1 "AudioJack3_Ground" H 9770 3227 50  0000 R CNN
+F 2 "" H 10050 3350 50  0001 C CNN
+F 3 "~" H 10050 3350 50  0001 C CNN
+	1    10050 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack3_Ground J?
+U 1 1 5E08E895
+P 10050 4000
+F 0 "J?" H 9770 3968 50  0000 R CNN
+F 1 "AudioJack3_Ground" H 9770 3877 50  0000 R CNN
+F 2 "" H 10050 4000 50  0001 C CNN
+F 3 "~" H 10050 4000 50  0001 C CNN
+	1    10050 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack3_Ground J?
+U 1 1 5E134D2F
+P 3750 1550
+F 0 "J?" H 3732 1875 50  0000 C CNN
+F 1 "AudioJack3_Ground" H 3732 1784 50  0000 C CNN
+F 2 "" H 3750 1550 50  0001 C CNN
+F 3 "~" H 3750 1550 50  0001 C CNN
+	1    3750 1550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack3_Ground J?
+U 1 1 5E13532E
+P 5900 1950
+F 0 "J?" H 5882 2275 50  0000 C CNN
+F 1 "AudioJack3_Ground" H 5882 2184 50  0000 C CNN
+F 2 "" H 5900 1950 50  0001 C CNN
+F 3 "~" H 5900 1950 50  0001 C CNN
+	1    5900 1950
+	-1   0    0    -1  
+$EndComp
+$Sheet
+S 1200 2750 1000 750 
+U 5E0B99A7
+F0 "Unbalanced Inputs" 50
+F1 "Unbalanced Inputs.sch" 50
+F2 "Bal_St_1" I R 2200 2850 50 
+F3 "Bal_St_2" I R 2200 3400 50 
+F4 "Addr_En_1" I L 1200 2850 50 
+F5 "Addr_En_2" I L 1200 3400 50 
+$EndSheet
+$Sheet
+S 1600 5750 950  1100
+U 5E15B311
+F0 "Power" 50
+F1 "Power.sch" 50
+$EndSheet
+Wire Bus Line
+	2200 2850 2900 2850
+Wire Bus Line
+	3850 3850 2750 3850
+Wire Bus Line
+	2750 3400 2200 3400
+Wire Bus Line
+	2900 2850 2900 3700
+Wire Bus Line
+	2750 3400 2750 3850
+Wire Bus Line
+	3850 3550 3150 3550
+Entry Wire Line
+	3150 1650 3250 1550
+Entry Wire Line
+	3150 1750 3250 1650
+Entry Wire Line
+	3050 1550 3150 1650
+Entry Wire Line
+	3050 1650 3150 1750
+Entry Wire Line
+	5100 1900 5200 2000
+Entry Wire Line
+	5100 2000 5200 2100
+Entry Wire Line
+	5200 2050 5300 1950
+Entry Wire Line
+	5200 2150 5300 2050
+Wire Wire Line
+	4800 1900 5100 1900
+Wire Wire Line
+	5300 1950 5700 1950
+Wire Wire Line
+	3050 1650 2700 1650
+Wire Wire Line
+	3250 1550 3550 1550
+Wire Wire Line
+	3550 1650 3250 1650
+$Comp
+L Connector:AudioJack3_Ground J?
+U 1 1 5E190DB9
+P 10050 2000
+F 0 "J?" H 9770 1968 50  0000 R CNN
+F 1 "AudioJack3_Ground" H 9770 1877 50  0000 R CNN
+F 2 "" H 10050 2000 50  0001 C CNN
+F 3 "~" H 10050 2000 50  0001 C CNN
+	1    10050 2000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack3_Ground J?
+U 1 1 5E190E5F
+P 10050 2550
+F 0 "J?" H 9770 2518 50  0000 R CNN
+F 1 "AudioJack3_Ground" H 9770 2427 50  0000 R CNN
+F 2 "" H 10050 2550 50  0001 C CNN
+F 3 "~" H 10050 2550 50  0001 C CNN
+	1    10050 2550
+	-1   0    0    -1  
+$EndComp
+$Sheet
+S 9700 4550 1100 850 
+U 5E191140
+F0 "Unbalanced Out" 50
+F1 "Unbalanced_out.sch" 50
+F2 "Bal_St_In" I L 9700 4950 50 
+$EndSheet
+$Sheet
+S 9700 5750 1100 650 
+U 5E191178
+F0 "Headphone Out" 50
+F1 "Headphone_out.sch" 50
+F2 "Bal_St_In" I L 9700 6050 50 
+$EndSheet
+$Sheet
+S 6150 3250 1150 1350
+U 5E191394
+F0 "Volume Control" 50
+F1 "Volume_control.sch" 50
+F2 "Bal_St_in_1" I L 6150 3500 50 
+F3 "Bal_St_Out_1" I R 7300 3500 50 
+F4 "Bal_St_Out_2" I R 7300 3700 50 
+F5 "Bal_St_in_2" I L 6150 3700 50 
+F6 "SCLK" I L 6150 4000 50 
+F7 "SDI" I L 6150 4100 50 
+F8 "~CS" I L 6150 4200 50 
+F9 "ZCEN" I L 6150 4300 50 
+F10 "~MUTE1" I L 6150 4400 50 
+F11 "~MUTE2" I L 6150 4500 50 
+$EndSheet
+Wire Bus Line
+	3700 3400 3700 2700
+Wire Bus Line
+	3700 2700 5200 2700
+Wire Bus Line
+	3700 3400 3850 3400
+$Sheet
+S 7650 3250 1350 850 
+U 5E191E04
+F0 "Output Mux" 50
+F1 "4_to_2_mux.sch" 50
+F2 "Bal_St_4_1" I R 9000 3400 50 
+F3 "Bal_St_4_2" I R 9000 3550 50 
+F4 "Bal_St_4_3" I R 9000 3700 50 
+F5 "Bal_St_4_4" I R 9000 3850 50 
+F6 "Bal_St_2_1" I L 7650 3500 50 
+F7 "Bal_St_2_2" I L 7650 3700 50 
+F8 "Addr_En_1" I L 7650 3900 50 
+F9 "Addr_En_2" I L 7650 4000 50 
+$EndSheet
+Wire Bus Line
+	2900 3700 3850 3700
+$Sheet
+S 3850 3250 1550 1000
+U 5E4B033F
+F0 "Input Mux" 50
+F1 "4_to_2_mux.sch" 50
+F2 "Bal_St_4_1" I L 3850 3400 50 
+F3 "Bal_St_4_2" I L 3850 3550 50 
+F4 "Bal_St_4_3" I L 3850 3700 50 
+F5 "Bal_St_4_4" I L 3850 3850 50 
+F6 "Bal_St_2_1" I R 5400 3500 50 
+F7 "Bal_St_2_2" I R 5400 3700 50 
+F8 "Addr_En_1" I L 3850 4050 50 
+F9 "Addr_En_2" I L 3850 4150 50 
+$EndSheet
+Wire Bus Line
+	9000 3850 9200 3850
+Wire Bus Line
+	9200 3850 9200 6050
+Wire Bus Line
+	9200 6050 9700 6050
+Wire Bus Line
+	9700 4950 9350 4950
+Wire Bus Line
+	9350 4950 9350 3700
+Wire Bus Line
+	9000 3700 9350 3700
+Wire Wire Line
+	2700 1550 3050 1550
+Wire Wire Line
+	4800 2000 5100 2000
+Wire Wire Line
+	5300 2050 5700 2050
+Wire Bus Line
+	9000 3400 9250 3400
+Entry Wire Line
+	9500 3550 9600 3450
+Entry Wire Line
+	9500 3450 9600 3350
+Entry Wire Line
+	9500 4000 9600 4100
+Entry Wire Line
+	9500 3900 9600 4000
+Wire Wire Line
+	9850 4000 9600 4000
+Wire Wire Line
+	9600 4100 9850 4100
+Entry Wire Line
+	9250 2750 9350 2650
+Entry Wire Line
+	9250 2650 9350 2550
+Wire Wire Line
+	9850 2550 9350 2550
+Wire Wire Line
+	9850 2650 9350 2650
+Entry Wire Line
+	9250 2100 9350 2000
+Entry Wire Line
+	9250 2200 9350 2100
+Wire Wire Line
+	9850 2000 9350 2000
+Wire Wire Line
+	9850 2100 9350 2100
+Connection ~ 9500 3550
+Wire Bus Line
+	9000 3550 9500 3550
+Wire Wire Line
+	9600 3350 9850 3350
+Wire Wire Line
+	9850 3450 9600 3450
+Wire Bus Line
+	5400 3500 6150 3500
+Wire Bus Line
+	5400 3700 6150 3700
+Wire Bus Line
+	7300 3500 7650 3500
+Wire Bus Line
+	7300 3700 7650 3700
+Wire Bus Line
+	9500 3450 9500 3550
+$Sheet
+S 3200 4850 1950 1900
+U 5E39236B
+F0 "Microcontroller" 50
+F1 "Microcontroller.sch" 50
+F2 "UBI_Addr_En_1" I L 3200 5400 50 
+F3 "UBI_Addr_En_2" I L 3200 5500 50 
+F4 "In_Mux_Addr_En_1" I L 3200 4950 50 
+F5 "In_Mux_Addr_En_2" I L 3200 5050 50 
+F6 "Out_Mux_Addr_En_1" I R 5150 6200 50 
+F7 "Out_Mux_Addr_En_2" I R 5150 6300 50 
+F8 "PGA_SCL" I R 5150 5550 50 
+F9 "PGA_SDO" I R 5150 5650 50 
+$EndSheet
+Wire Bus Line
+	3200 5400 1000 5400
+Wire Bus Line
+	1000 5400 1000 2850
+Wire Bus Line
+	1000 2850 1200 2850
+Wire Bus Line
+	3200 5500 1100 5500
+Wire Bus Line
+	1100 5500 1100 3400
+Wire Bus Line
+	1100 3400 1200 3400
+Wire Bus Line
+	3200 4950 3000 4950
+Wire Bus Line
+	3000 4950 3000 4050
+Wire Bus Line
+	3000 4050 3850 4050
+Wire Bus Line
+	3850 4150 3100 4150
+Wire Bus Line
+	3100 4150 3100 5050
+Wire Bus Line
+	3100 5050 3200 5050
+Wire Bus Line
+	5150 5550 5600 5550
+Wire Bus Line
+	5600 5550 5600 4000
+Wire Bus Line
+	5600 4000 6150 4000
+Wire Bus Line
+	5150 5650 5700 5650
+Wire Bus Line
+	5700 5650 5700 4100
+Wire Bus Line
+	5700 4100 6150 4100
+Wire Bus Line
+	5150 6200 7450 6200
+Wire Bus Line
+	7450 6200 7450 3900
+Wire Bus Line
+	7450 3900 7650 3900
+Wire Bus Line
+	7650 4000 7550 4000
+Wire Bus Line
+	7550 4000 7550 6300
+Wire Bus Line
+	7550 6300 5150 6300
+Wire Bus Line
+	9500 3550 9500 4000
+Wire Bus Line
+	3150 1550 3150 3550
+Wire Bus Line
+	5200 2000 5200 2700
+Wire Bus Line
+	9250 2100 9250 3400
+$EndSCHEMATC
